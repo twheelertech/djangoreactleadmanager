@@ -46,7 +46,8 @@ const Leads = ({ leads, getLeads, deleteLead }) => {
 
 Leads.propTypes = {
   leads: PropTypes.array.isRequired,
-  getLeads: PropTypes.func.isRequired
+  getLeads: PropTypes.func.isRequired,
+  deleteLead: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({
